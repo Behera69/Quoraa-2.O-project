@@ -5,9 +5,9 @@ import { MdEmail } from "react-icons/md";
 
 const RegisterPage = () => {
   return (
-    <div className=" flex items-center justify-center w-full h-screen bg-[#6cb7e8]">
+    <div className=" flex items-center justify-center w-full h-screen bg-[#6cb7e8] md:bg-white">
       {/* auth card */}
-      <div className=" flex overflow-hidden bg-white w-[50rem] h-[550px] rounded-xl shadow-lg md:flex-col">
+      <div className=" flex overflow-hidden bg-white w-[50rem] h-[550px] rounded-xl shadow-lg md:flex-col md:h-[750px] md:rounded-none py-3">
         {/* left */}
         <div className="flex-1 flex items-center justify-center">
           <div className=" flex flex-col gap-8">

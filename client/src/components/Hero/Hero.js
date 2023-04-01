@@ -4,7 +4,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className=" w-full m-auto overflow-hidden h-[740px] md:h-[680px]  flex items-center justify-center relative">
+    <div className=" w-full m-auto overflow-hidden bg-primary h-[740px] md:h-[680px]  flex items-center justify-center relative">
       <div className=" absolute  overflow-hidden top-0 left-0 w-full">
         <img
           className=" w-full h-[740px] md:h-[680px]  object-cover"

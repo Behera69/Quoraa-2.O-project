@@ -6,9 +6,9 @@ import { FaLock } from "react-icons/fa";
 const LoginPage = () => {
   return (
     <>
-      <div className=" flex items-center justify-center w-full h-screen bg-[#6cb7e8]">
+      <div className=" flex items-center justify-center w-full h-screen bg-[#6cb7e8] md:bg-white">
         {/* auth card */}
-        <div className=" flex overflow-hidden bg-white w-[50rem] h-[550px] rounded-xl shadow-lg">
+        <div className=" flex overflow-hidden bg-white w-[50rem] h-[550px] rounded-xl shadow-lg md:flex-col-reverse md:h-[750px] md:rounded-none py-3">
           {/* left */}
           <div className="flex-1 flex items-center justify-center">
             <div className="flex flex-col items-center justify-between gap-5 w-[250px]">
@@ -37,9 +37,12 @@ const LoginPage = () => {
                   />
                 </div>
               </form>
-              <button className=" bg-primary w-fit py-2 px-4 text-white text-base rounded-md">
+              <Link
+                to="/"
+                className=" bg-primary w-fit py-2 px-4 text-white text-base rounded-md"
+              >
                 Login
-              </button>
+              </Link>
               <div className=" flex flex-col space-y-1">
                 <Link className=" text-sm hover:text-primary">
                   Forget password?
