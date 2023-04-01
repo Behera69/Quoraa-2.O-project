@@ -11,19 +11,22 @@ const Navbar = () => {
           <div className=" cursor-pointer hidden  md:flex">
             <HiMenuAlt1 size={25} className=" text-white" />
           </div>
-          <Link className=" text-xl p-2 px-3 rounded-md bg-white text-black flex items-center space-x-2 ">
+          <Link className=" text-xl p-[8px] px-3 rounded-md bg-white text-black flex items-center space-x-2 ">
             <IoLogoIonic className=" text-green-500" />
             <p className="text-lg font-medium">Quora</p>
           </Link>
         </div>
-        <div className="auth flex items-center">
+        <div className="auth flex items-center gap-2">
           <div>
-            <Link className="p-2 px-7 rounded-3xl bg-white text-black flex items-center space-x-2 ">
+            <Link className=" hidden p-2 px-7 rounded-3xl bg-white text-black flex items-center space-x-2 ">
               Login
             </Link>
           </div>
           <div>
-            <Link className="p-2 px-6 rounded-3xl bg-white text-black flex items-center space-x-2 ">
+            <Link
+              to="/login"
+              className="p-2 px-5 rounded-3xl bg-white text-black flex items-center space-x-2 "
+            >
               <img
                 className=" w-[22px] border-2 overflow-hidden bg-black border-black rounded-full h-[22px]"
                 src="https://img.icons8.com/color/48/null/user.png"
