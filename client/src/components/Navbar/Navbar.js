@@ -16,7 +16,7 @@ const Navbar = () => {
             <p className="text-lg font-medium">Quora</p>
           </Link>
         </div>
-        <div className="auth flex items-center">
+        <div className="auth flex items-center gap-2">
           <div>
             <Link className="p-2 px-7 rounded-3xl bg-white text-black flex items-center space-x-2 ">
               Login

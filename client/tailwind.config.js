@@ -32,8 +32,12 @@ module.exports = {
       // => @media (max-width: 639px) { ... }
       exsm: { max: "380px" },
     },
-   
-    extend: {},
+
+    extend: {
+      colors: {
+        primary: "#3fa2e3",
+      },
+    },
   },
   plugins: [],
 };
